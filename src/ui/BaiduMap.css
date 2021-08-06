@@ -1,0 +1,107 @@
+.App{
+    
+    height: fit-content;
+    width: fit-content;
+  }
+  .mapresult{
+    width: 735px;
+    height: 595px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #container{
+    width: 500px !important;
+    height: 600px !important; 
+    }
+    .resultlist{
+      height: 100%;
+     
+      width: 200px;
+      overflow-y: scroll;
+    }
+    .resultlist::-webkit-scrollbar {
+      display: none  
+  }
+    .item{
+      height: 55px;
+      width: 200px;
+
+      margin-bottom: 15px;
+      cursor: pointer;
+      
+     
+  
+    }
+    .itemfonttitle{
+      font-size: medium;
+      white-space: nowrap;
+      height: 20px;
+      line-height: 20px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-bottom: 10px;
+    }
+    .itemfontadress{
+      font-size: small;
+      white-space: nowrap;
+      height: 20px;
+      line-height: 20px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .baidumap{
+      width: 500px;
+      height: 500px !important;
+    }
+    
+    .sp{
+      margin-right: 24px;
+    }
+    
+
+    
+
+    
+    .title{
+      font-size: 14px;
+      color: blue;
+      
+    }
+    
+    .address{
+      font-size: 12px;
+    }
+  /*   .closepage{
+      background-color: cadetblue;
+      color: white;
+      margin-left: 20px;
+    }
+    .right{
+      margin-left: 20px;
+      background-color: white;
+      color: black;
+    } */
+   
+    .tangram-suggestion {
+      border: 1px solid #e4e6e7;
+      font-family: Arial,Helvetica,"Microsoft YaHei",sans-serif;
+      background: #fff;
+      cursor: default;
+      height: 300px !important;
+      overflow: scroll;
+      z-index: 1000 !important;
+  }
+  .search{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 40px;
+
+  }
+
+#inputmap{
+  width: 200px;
+  height: 30px;
+}

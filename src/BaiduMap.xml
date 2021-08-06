@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.baidumap.BaiduMap" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Baidu Map</name>
+    <description>My widget description</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+       <property key="lng" type="attribute" required="false">
+                <caption>经度</caption>
+                <description>请选择开始时间</description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+              <property key="lat" type="attribute" required="false">
+                <caption>纬度</caption>
+                <description>请选择开始时间</description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+              <property key="adress" type="attribute" required="false">
+                <caption>地址</caption>
+                <description>请选择开始时间</description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+            <property key="actionMap" type="action" required="false">
+                <caption>开始时间</caption>
+                <description>微流</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
